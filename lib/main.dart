@@ -10,6 +10,11 @@ void main() {
           title: Text('I Am Rich'),
           backgroundColor: Colors.blueGrey[900],
         ),
+        body: Center(
+          child: Image(
+            image: NetworkImage('https://picsum.photos/800'),
+          ),
+        ),
       ),
     ),
   );
